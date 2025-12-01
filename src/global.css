@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+:root {
+    --corPrincipal:#4CAF50;
+    --corSecundária:#60a3bc;
+    --corTextoA:#636e72;
+    --corTextoB: #ffffff;
+    --corBaixoPeso:#60a3bc;
+    --corPesoNormal:#4CAF50;
+    --corSobrePeso:#fa983a;
+    --corObesidadeI: #e55039;
+    --corObesidadeII:#eb2f06;
+    --corObesidadeIII:#b71540;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .container {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    * {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
