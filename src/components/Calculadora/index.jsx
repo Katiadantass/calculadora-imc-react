@@ -1,4 +1,4 @@
-import styles from './calculadora.module.css';
+import styles from './Calculadora.module.css';
 
 const ImcResultado = ({ altura, peso }) => {
     const confereCampos = () => {
