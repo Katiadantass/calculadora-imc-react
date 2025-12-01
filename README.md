@@ -57,12 +57,12 @@ O objetivo do projeto é criar uma aplicação em **React** que calcule o Índic
 ## 💻 Demonstração
 
 1. Rode `npm install`
-2. 
-3. Rode `npm run dev`
-4. 
-5. Abra `http://localhost:5173/`
-6. 
-7. Insira altura e peso e clique em "Calcular" para visualizar o resultado.
+
+2. Rode `npm run dev`
+
+3. Abra `http://localhost:5173/`
+   
+4. Insira altura e peso e clique em "Calcular" para visualizar o resultado.
 
 ## 🙋 Autora
 
