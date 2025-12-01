@@ -1,16 +1,69 @@
-# React + Vite
+# ⚖️ Calculadora de IMC - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📎 Sumário
 
-Currently, two official plugins are available:
+• [📌 Resumo do Projeto](#-resumo-do-projeto)  
+• [⭐ Desafio](#-desafio)  
+• [📂 Funcionalidades](#-funcionalidades)  
+• [✔️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)  
+• [💻 Demonstração](#-demonstração)  
+• [🙋 Autora](#-autora)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Resumo do Projeto
 
-## React Compiler
+A **Calculadora de IMC** é um projeto desenvolvido como exercício do **Módulo 28** do curso Full Stack Python da EBAC.  
+O objetivo do projeto é criar uma aplicação em **React** que calcule o Índice de Massa Corporal a partir dos dados inseridos pelo usuário e exiba a categoria correspondente.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⭐ Desafio
 
-## Expanding the ESLint configuration
+• Criar interface utilizando React com componentes separados.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+• Utilizar useState para capturar altura e peso. 
+
+• Calcular o IMC e exibir o resultado na tela.
+
+• Mostrar a classificação de acordo com o valor do IMC.  
+
+• Manter layout responsivo utilizando CSS Modules.  
+
+• Organizar o projeto seguindo boas práticas de componentização.
+
+## 📂 Funcionalidades
+
+✔️ Campo para digitar altura (cm).  
+
+✔️ Campo para digitar peso (kg).  
+
+✔️ Botão para calcular IMC.  
+
+✔️ Cálculo automático do IMC.  
+
+✔️ Exibição da classificação (Magreza, Normal, Sobrepeso, Obesidade). 
+
+✔️ Layout responsivo. 
+
+✔️ Interface organizada com componentes (Header, Formulário e Resultado).
+
+## ✔️ Tecnologias Utilizadas
+
+• React (Vite)  
+
+• JavaScript 
+
+• CSS Modules  
+
+• Git e GitHub
+
+## 💻 Demonstração
+
+1. Rode `npm install`
+2. 
+3. Rode `npm run dev`
+4. 
+5. Abra `http://localhost:5173/`
+6. 
+7. Insira altura e peso e clique em "Calcular" para visualizar o resultado.
+
+## 🙋 Autora
+
+[Kátia Dantas](https://github.com/Katiadantass)
