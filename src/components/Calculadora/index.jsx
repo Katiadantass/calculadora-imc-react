@@ -74,6 +74,6 @@ return (
         )}
     </>
 )
-}
+} 
 
 export default ImcResultado
